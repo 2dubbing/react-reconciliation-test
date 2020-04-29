@@ -1,6 +1,6 @@
 # react-reconciliation-test
 
-- key 값에 따른 react dom render 재조정 확인 프로젝트
+- key 값에 따른 react dom tree 재조정 확인
 - [React 공식페이지 - Reconciliation](https://reactjs.org/docs/reconciliation.html)
 
 ====
