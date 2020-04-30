@@ -12,7 +12,7 @@
 
 <br>
 
-## reconiliation 휴리스틱 알고리즘
+## reconciliation 휴리스틱 알고리즘
 
 1. 엘리먼트가 변경되면 새로운 DOM tree 를 구성한다.
 > * 테스트 케이스
