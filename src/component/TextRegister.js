@@ -3,6 +3,12 @@ import React from "react";
 const TextRegister = React.memo(function({ addDatas }) {
   const [text, setText] = React.useState("");
 
+  React.useEffect(() => {
+    return () => {
+      console.log(`TextRegister is unmount`);
+    }
+  }, []);
+
   const registText = () => {
     if (text === "") return;
     addDatas(text);
